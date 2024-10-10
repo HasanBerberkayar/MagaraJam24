@@ -75,6 +75,7 @@ public class Player : Creature
         GameObject.DontDestroyOnLoad(this.gameObject);
         // anim = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         Physics2D.queriesStartInColliders = false;
         currentHealth = maxHealth;
         dashTimer = dashCoolDown;     

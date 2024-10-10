@@ -32,7 +32,7 @@ public class Creature : MonoBehaviour
     public int damage;
     public float attackRange;
 
-
+    public SpriteRenderer spriteRenderer;
     /*
     public void Start()
     {
